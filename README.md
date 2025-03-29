@@ -2,6 +2,11 @@
 
 A singleton modal management solution for Svelte that eliminates boilerplate code when creating multiple modals.
 
+preview:
+```
+https://svelte-modal.vercel.app/
+```
+
 ## Dependencies
 - Tailwind CSS
 - Daisy UI 5
