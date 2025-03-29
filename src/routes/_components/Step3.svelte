@@ -15,7 +15,7 @@
     </button>
     <button 
       onclick={onConfirm}
-      class="btn btn-sucess">
+      class="btn btn-success">
       confirm
     </button>
   </div>
