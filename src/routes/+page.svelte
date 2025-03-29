@@ -30,7 +30,7 @@
   const onContentModalClick = () => {
     const handleItemClick = (item: Item) => {
       modal.close();
-      toast.info(`${item.title}이(가) 선택되었습니다.`);
+      toast.info(`selected item: ${item.title}`);
     };
     modal.open(
       "title", 
@@ -58,7 +58,7 @@
       onPrev: step2Modal,
       onConfirm: () => {
         modal.close()
-        toast.info('작업이 완료되었습니다.')
+        toast.info('finish.')
       }
     })
   }
